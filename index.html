@@ -100,9 +100,16 @@
             <span class="song-name">The Weeknd - Call Out My Name</span>
         </div>
 
-        <audio id="audioPlayer" src="musica/call-out-my-name.mp3"></audio>
+        <audio id="audioPlayer" src="musica.mp3"></audio>
     </div>
 
     <script src="script.js"></script>
+    <button onclick="document.getElementById('musica').play()">
+🎵 Tocar Música
+</button>
+
+<audio id="musica" loop>
+   <source src="musica.mp3" type="audio/mpeg">
+</audio>
 </body>
 </html>
