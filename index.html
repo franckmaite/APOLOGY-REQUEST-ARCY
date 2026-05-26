@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desculpa Windzy, Te Amo 💕</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="background">
+        <div class="gradient-bg"></div>
+        <div class="particles" id="particles"></div>
+    </div>
+
+    <div class="container">
+        <div class="opening">
+            <h1 class="title animate-title">Desculpa Windzy, Te Amo</h1>
+            <p class="subtitle animate-subtitle">Para minha garotinha 💕</p>
+            <div class="heart-pulse">❤️</div>
+        </div>
+
+        <div class="timer-section">
+            <h2>📅 Nosso Tempo Junto</h2>
+
+            <div class="timer-container">
+                <div>
+                    <p class="timer-label">Comecei a gostar em</p>
+                    <p class="timer-date">27 NOV 2025</p>
+                </div>
+
+                <div class="separator">💕</div>
+
+                <div>
+                    <p class="timer-label">Começamos a namorar</p>
+                    <p class="timer-date">05 JAN 2026</p>
+                </div>
+            </div>
+
+            <p class="relationship-time" id="relationshipTime">Contando...</p>
+        </div>
+
+        <div class="gallery-section">
+            <h2 class="gallery-title">✨ Memórias Nossas ✨</h2>
+
+            <div class="gallery">
+                <div class="photo-item">
+                    <img src="fotos/foto1.jpg" alt="Memória 1" class="photo">
+                    <div class="photo-overlay">Momento Especial</div>
+                </div>
+
+                <div class="photo-item">
+                    <img src="fotos/foto2.jpg" alt="Memória 2" class="photo">
+                    <div class="photo-overlay">Você Me Deixa Feliz</div>
+                </div>
+
+                <div class="photo-item">
+                    <img src="fotos/foto3.jpg" alt="Memória 3" class="photo">
+                    <div class="photo-overlay">Dias Inesquecíveis</div>
+                </div>
+
+                <div class="photo-item">
+                    <img src="fotos/foto4.jpg" alt="Memória 4" class="photo">
+                    <div class="photo-overlay">Você É Tudo</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="message-section">
+            <div class="message-container">
+                <div class="typewriter" id="typewriter"></div>
+            </div>
+        </div>
+
+        <div class="button-section">
+            <button class="surprise-btn" onclick="openSurprise()">
+                🎁 Clique Aqui Para Minha Surpresa 🎁
+            </button>
+        </div>
+    </div>
+
+    <div id="surpriseModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeSurprise()">&times;</span>
+
+            <h2 class="surprise-title">Te Amo, Windzy 💕</h2>
+
+            <p class="surprise-message">
+                Essa mensagem é para você saber que, mesmo nos meus erros,
+                meu amor por você continua intacto e mais forte do que nunca.
+                Você é aquela pessoa que eu penso quando imagino felicidade.
+            </p>
+
+            <div class="hearts-container" id="heartsContainer"></div>
+        </div>
+    </div>
+
+    <div class="music-controls">
+        <div class="player">
+            <button class="play-btn" id="playBtn" onclick="toggleMusic()">🎵</button>
+            <span class="song-name">The Weeknd - Call Out My Name</span>
+        </div>
+
+        <audio id="audioPlayer" src="musica/call-out-my-name.mp3"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
