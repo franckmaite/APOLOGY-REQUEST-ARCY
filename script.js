@@ -22,29 +22,28 @@ function createParticles() {
 }
 
 function typeWriter() {
-    const message = `Às vezes eu fico a pensar em como uma pessoa consegue ocupar um espaço tão grande dentro do coração da outra… e depois lembro-me de ti.
+    const message = `Eu quis escrever isto para ti porque sei que estás chateada comigo, e eu não quero agir como se nada tivesse acontecido. Eu sei que as minhas palavras e a minha forma de reagir te magoaram, e eu sinto muito por ter deixado os meus ciúmes e as minhas inseguranças falarem mais alto do que o cuidado que eu devia ter tido contigo.
 
-Porque contigo nunca foi algo vazio ou passageiro. Tu entraste na minha vida de uma forma tão natural que, sem eu perceber, começaste a fazer parte dos meus pensamentos todos os dias. O teu nome virou conforto. A tua voz virou calma. As tuas mensagens viraram parte da minha rotina. E o teu amor virou uma das coisas mais preciosas que eu já tive.
+Dói-me pensar que, em vez de te dar paz, eu te dei tristeza. Dói-me saber que uma pessoa que eu amo tanto pode ter-se sentido magoada por minha causa. Se eu pudesse voltar atrás, eu escolheria falar contigo com calma, abraçar-te com palavras e fazer-te sentir segura, amada e importante para mim.
 
-Eu sei que hoje estás magoada comigo, e sinceramente… eu entendo. Mas mesmo no meio da dor que eu te causei, existe uma coisa que continua intacta dentro de mim: o amor enorme que eu sinto por ti.
+Tu és a minha namorada, és uma pessoa muito importante para mim. Tu não és apenas alguém na minha vida: és alguém que faz os meus dias terem mais sentido, alguém que eu penso, que eu admiro e que eu quero ver bem. E eu odeio saber que fui eu quem te fez sentir triste.
 
-E quando eu digo que te amo, não estou a falar só daquele amor de palavras bonitas. Estou a falar do amor de querer saber se já comeste, se dormiste bem, se chegaste em segurança. Do amor de imaginar o teu sorriso do nada e sorrir também. Do amor de lembrar de pequenos detalhes teus sem esforço, porque tu ficas na minha cabeça o tempo inteiro.
+Eu devia ter falado contigo com calma, devia ter-te escutado melhor e devia ter sido mais carinhoso. Em vez disso, deixei-me levar por pensamentos e reações que não foram justos contigo. E eu reconheço isso de coração, porque tu não merecias carregar o peso das minhas inseguranças.
 
-Tu tens uma presença diferente. Tu tens aquele tipo de abraço que acalma, aquele jeito que marca, aquele olhar que faz alguém sentir-se importante. E talvez tu nunca tenhas percebido completamente o quanto mexeste comigo desde que apareceste na minha vida.
+Eu não quero que o meu amor por ti seja apenas uma coisa bonita que eu digo. Quero que ele apareça na forma como eu falo contigo, na paciência que tenho quando algo me incomoda, na confiança que te dou e no cuidado que demonstro todos os dias. Quero que, quando estiveres comigo, sintas que tens um lugar seguro — um lugar onde podes ser tu, sem medo de seres julgada ou magoada.
 
-Eu amo a forma como tu consegues ser forte e sensível ao mesmo tempo. Amo as tuas manias, as tuas reações. Amo as conversas aleatórias contigo, os momentos simples, as brincadeiras, os silêncios… porque contigo até o simples é especial.
+Eu sei que tenho muito a melhorar. Sei que os meus ciúmes e alguns dos meus comportamentos não podem continuar a ocupar espaço entre nós. Mas quero que saibas que, por trás desses erros, existe um amor enorme por ti — um amor que não quer prender-te, magoar-te ou fazer-te sentir menos; um amor que quer aprender a ser mais maduro, mais seguro e mais leve para nós dois.
 
-E é por isso que tudo isto me dói tanto. Porque no meio de milhões de pessoas, foste tu quem conseguiu tocar partes minhas que ninguém nunca tinha conseguido tocar da mesma forma.
+Eu amo a nossa relação. Amo os nossos momentos, as nossas conversas, as brincadeiras, os risos e até as pequenas coisas que só nós entendemos. Amo ter-te na minha vida. Há coisas em nós que eu guardo com muito carinho, e eu não quero que um momento mau apague tudo o que somos, tudo o que sentimos e tudo o que ainda podemos viver juntos.
 
-Eu sei que o meu erro fez-te questionar muita coisa. Talvez até tenha feito tu duvidares do meu sentimento. Mas se existe uma coisa que eu queria conseguir colocar dentro do teu coração para tu sentires, era o quanto eu realmente te amo.
+E é exatamente por amar-te que eu quero cuidar melhor de ti e de nós. Quero aprender a amar-te de uma forma que te faça sorrir mais do que chorar. Quero que te sintas valorizada todos os dias, não só quando tudo está bem, mas também quando estás triste, cansada ou precisas de mim.
 
-Tu és aquela pessoa que eu penso quando imagino felicidade. Aquela pessoa que eu queria continuar a ter ao meu lado nos dias bons e maus. Aquela pessoa que eu ainda olho e penso: "é ela".
+Não estou a escrever isto para fazer desaparecer a tua chateação de uma vez, porque eu respeito o que sentes. Só quero que saibas que eu reconheço o meu erro, que me arrependo de verdade e que não quero repetir aquilo que te fez sofrer.
 
-E mesmo eu tendo errado contigo, mesmo sabendo que não mereço facilidade depois da dor que causei… eu não consigo fingir que o meu amor diminuiu. Porque não diminuiu. Se tornou ainda mais forte quando eu percebi o quanto a ideia de te perder me destrói por dentro.
+Quero reconstruir a tua confiança com atitudes: falando melhor, ouvindo mais, confiando em ti e escolhendo o amor antes do orgulho. Quero ser alguém que te traz paz, e não alguém que te deixa triste. Quero que o meu abraço, a minha voz e a minha presença sejam coisas que te façam sentir bem.
 
-Eu amo-te de um jeito que vai além do orgulho, além do ego e além das palavras bonitas que se dizem num momento. Amo-te de verdade. E talvez eu passe muito tempo a tentar mostrar isso da forma certa, mas eu estou disposto a fazê-lo.
-
-Porque tu, para mim, nunca foste qualquer pessoa.`;
+Desculpa-me, meu amor.Eu amo-te muito. Mais do que consigo explicar nestas palavras. E quero continuar a construir coisas bonitas contigo, com mais carinho, respeito, segurança e amor — porque tu mereces isso de mim, e porque nós merecemos isso um do outro.
+Com amor: Franck.`;
 
     const typewriterElement = document.getElementById('typewriter');
     let index = 0;
@@ -61,7 +60,7 @@ Porque tu, para mim, nunca foste qualquer pessoa.`;
 }
 
 function updateRelationshipTimer() {
-    const startDate = new Date('2026-01-05');
+    const startDate = new Date('2025-07-12');
     const now = new Date();
     const diff = now - startDate;
 
@@ -96,7 +95,7 @@ function closeSurprise() {
 
 function createHearts() {
     const container = document.getElementById('heartsContainer');
-    const hearts = ['❤️', '💕', '💖', '💗'];
+    const hearts = ['❤️', '💕', '💖', '❤️'];
 
     for (let i = 0; i < 12; i++) {
         setTimeout(() => {
