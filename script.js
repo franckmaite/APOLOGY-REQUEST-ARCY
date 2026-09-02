@@ -22,28 +22,11 @@ function createParticles() {
 }
 
 function typeWriter() {
-    const message = `Eu quis escrever isto para ti porque sei que estás chateada comigo, e eu não quero agir como se nada tivesse acontecido. Eu sei que as minhas palavras e a minha forma de reagir te magoaram, e eu sinto muito por ter deixado os meus ciúmes e as minhas inseguranças falarem mais alto do que o cuidado que eu devia ter tido contigo.
-
-Dói-me pensar que, em vez de te dar paz, eu te dei tristeza. Dói-me saber que uma pessoa que eu amo tanto pode ter-se sentido magoada por minha causa. Se eu pudesse voltar atrás, eu escolheria falar contigo com calma, abraçar-te com palavras e fazer-te sentir segura, amada e importante para mim.
-
-Tu és a minha namorada, és uma pessoa muito importante para mim. Tu não és apenas alguém na minha vida: és alguém que faz os meus dias terem mais sentido, alguém que eu penso, que eu admiro e que eu quero ver bem. E eu odeio saber que fui eu quem te fez sentir triste.
-
-Eu devia ter falado contigo com calma, devia ter-te escutado melhor e devia ter sido mais carinhoso. Em vez disso, deixei-me levar por pensamentos e reações que não foram justos contigo. E eu reconheço isso de coração, porque tu não merecias carregar o peso das minhas inseguranças.
-
-Eu não quero que o meu amor por ti seja apenas uma coisa bonita que eu digo. Quero que ele apareça na forma como eu falo contigo, na paciência que tenho quando algo me incomoda, na confiança que te dou e no cuidado que demonstro todos os dias. Quero que, quando estiveres comigo, sintas que tens um lugar seguro — um lugar onde podes ser tu, sem medo de seres julgada ou magoada.
-
-Eu sei que tenho muito a melhorar. Sei que os meus ciúmes e alguns dos meus comportamentos não podem continuar a ocupar espaço entre nós. Mas quero que saibas que, por trás desses erros, existe um amor enorme por ti — um amor que não quer prender-te, magoar-te ou fazer-te sentir menos; um amor que quer aprender a ser mais maduro, mais seguro e mais leve para nós dois.
-
-Eu amo a nossa relação. Amo os nossos momentos, as nossas conversas, as brincadeiras, os risos e até as pequenas coisas que só nós entendemos. Amo ter-te na minha vida. Há coisas em nós que eu guardo com muito carinho, e eu não quero que um momento mau apague tudo o que somos, tudo o que sentimos e tudo o que ainda podemos viver juntos.
-
-E é exatamente por amar-te que eu quero cuidar melhor de ti e de nós. Quero aprender a amar-te de uma forma que te faça sorrir mais do que chorar. Quero que te sintas valorizada todos os dias, não só quando tudo está bem, mas também quando estás triste, cansada ou precisas de mim.
-
-Não estou a escrever isto para fazer desaparecer a tua chateação de uma vez, porque eu respeito o que sentes. Só quero que saibas que eu reconheço o meu erro, que me arrependo de verdade e que não quero repetir aquilo que te fez sofrer.
-
-Quero reconstruir a tua confiança com atitudes: falando melhor, ouvindo mais, confiando em ti e escolhendo o amor antes do orgulho. Quero ser alguém que te traz paz, e não alguém que te deixa triste. Quero que o meu abraço, a minha voz e a minha presença sejam coisas que te façam sentir bem.
-
-Desculpa-me, meu amor.Eu amo-te muito. Mais do que consigo explicar nestas palavras. E quero continuar a construir coisas bonitas contigo, com mais carinho, respeito, segurança e amor — porque tu mereces isso de mim, e porque nós merecemos isso um do outro.
-Com amor: Franck.`;
+    const message = `Arcy, eu sei que já te pedi desculpas e sei que tu me perdoaste, mas confesso que ainda estou com o coração apertado por saber que estás magoada comigo 😔❤️
+Não quero ficar a insistir nem te pressionar a falar comigo antes de estares pronta. Só quero que saibas que me dói saber que te fiz sentir mal, porque a última coisa que eu quero é ser motivo para essa tristeza em ti.
+Eu tive uma insegurança naquele momento, mas nunca quis fazer-te sentir que não confio em ti ou que penso mal de ti. Eu reconheço o meu erro e vou aprender com ele.
+Agora amor, eu imploro vamos ficar bem novamente, vamos deixar tudo para trás pois eu ja não aguento ficar so assim, nos não somos assim, desculpa por tudo eu te amo muito meu amor
+COM MUITO AMOR: ARSHEN!.`;
 
     const typewriterElement = document.getElementById('typewriter');
     let index = 0;
@@ -95,7 +78,7 @@ function closeSurprise() {
 
 function createHearts() {
     const container = document.getElementById('heartsContainer');
-    const hearts = ['❤️', '💕', '💖', '❤️'];
+    const hearts = ['❤️', '💕', ❤️ ', '❤️'];
 
     for (let i = 0; i < 12; i++) {
         setTimeout(() => {
