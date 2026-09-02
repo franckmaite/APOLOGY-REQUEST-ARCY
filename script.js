@@ -23,7 +23,7 @@ function createParticles() {
 
 function typeWriter() {
     const message = `Arcy, eu sei que já te pedi desculpas e sei que tu me perdoaste, mas confesso que ainda estou com o coração apertado por saber que estás magoada comigo 😔❤️
-Não quero ficar a insistir nem te pressionar a falar comigo antes de estares pronta. Só quero que saibas que me dói saber que te fiz sentir mal, porque a última coisa que eu quero é ser motivo para essa tristeza em ti.
+Não quero ficar a insistir nem te pressionar a falar comigo antes de estares pronta. Só quero que saibas que me dói saber que te fiz sentir mal, porque a última coisa que eu quero é ser motivo de sofrimento para ti.
 Eu tive uma insegurança naquele momento, mas nunca quis fazer-te sentir que não confio em ti ou que penso mal de ti. Eu reconheço o meu erro e vou aprender com ele.
 Agora amor, eu imploro vamos ficar bem novamente, vamos deixar tudo para trás pois eu ja não aguento ficar so assim, nos não somos assim, desculpa por tudo eu te amo muito meu amor
 COM MUITO AMOR: ARSHEN!.`;
@@ -43,7 +43,7 @@ COM MUITO AMOR: ARSHEN!.`;
 }
 
 function updateRelationshipTimer() {
-    const startDate = new Date('2025-07-12');
+    const startDate = new Date('2025-05-23');
     const now = new Date();
     const diff = now - startDate;
 
@@ -78,7 +78,7 @@ function closeSurprise() {
 
 function createHearts() {
     const container = document.getElementById('heartsContainer');
-    const hearts = ['❤️', '💕', ❤️ ', '❤️'];
+    const hearts = ['❤️', '💕', '❤️', '❤️'];
 
     for (let i = 0; i < 12; i++) {
         setTimeout(() => {
