@@ -43,7 +43,7 @@ COM MUITO AMOR: ARSHEN!.`;
 }
 
 function updateRelationshipTimer() {
-    const startDate = new Date('2025-05-23');
+    const startDate = new Date('2025-11-26');
     const now = new Date();
     const diff = now - startDate;
 
